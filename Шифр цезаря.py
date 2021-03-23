@@ -1,5 +1,5 @@
 import string
-with open('C:\\Users\spams\Downloads\\medium.txt', 'r', encoding = 'utf-8') as f:
+with open(file, 'r', encoding = 'utf-8') as f:
     a = f.read(107)
     b = f.read(95)
 print(a)
